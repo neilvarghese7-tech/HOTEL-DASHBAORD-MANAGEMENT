@@ -1,18 +1,32 @@
-## Getting Started
+.
+# Hotel Management System
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A simple Java-based hotel management desktop application built with Swing and MySQL. It helps manage user authentication, room booking, check-in/check-out, billing, and room service operations for a hotel.
 
-## Folder Structure
+## Features
+- User sign up and login
+- Room booking management
+- Check-in and check-out handling
+- Billing and payment-related operations
+- Room service management
+- MySQL database integration
 
-The workspace contains two folders by default, where:
+## Tech Stack
+- Java
+- Java Swing (GUI)
+- JDBC
+- MySQL
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## How to Run
+1. Install Java JDK and MySQL.
+2. Create a MySQL database named `Hotelmanagement`.
+3. Update the database connection details in the source code if needed.
+4. Compile and run the project from `src/App.java`.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Project Structure
+- `src/` - Java source files
+- `lib/` - External libraries
+- `bin/` - Compiled output
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Note
+This project is a beginner-friendly desktop application for learning hotel management system development with Java and database connectivity.
